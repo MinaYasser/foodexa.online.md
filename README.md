@@ -1,4 +1,13 @@
+<p align="center">
+  <img src="logo.png" alt="Foodexa Logo" width="220" style="border-radius: 50%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"/>
+</p>
+
 # Foodexa - المنظومة الذكية المتكاملة لإدارة المطاعم وتلقي الطلبات أونلاين 🍽️🚀
+
+> **رابط المعاينة والموقع الرسمي للمنظومة:**  
+> 🌐 **[https://foodexa.online](https://foodexa.online)**
+
+---
 
 **Foodexa** هي منظومة سحابية ومحلية متكاملة ومستقلة، صُممت خصيصاً لمساعدة المطاعم والكافيهات على زيادة مبيعاتهم أونلاين، تنظيم تشغيل الصالة والمطبخ، وتتبع المخازن بدقة متناهية، مع التخلص التام من رسوم المنصات والوساطة الشهرية.
 
@@ -17,6 +26,28 @@
 
 ## ✨ القيمة التنافسية لنظام Foodexa
 تعتمد معظم المطاعم اليوم على منصات وسيطة تقتطع نسباً ضخمة من الأرباح وتتحكم في بيانات العملاء. يوفر **Foodexa** بديلاً مستقلاً بالكامل (Self-Hosted) يمنحك السيطرة الكاملة على علامتك التجارية وعملائك، مع إتاحة نظام بيئي رقمي موحد يربط كافة أقسام المطعم بشكل لحظي.
+
+---
+
+## 🔄 رحلة العميل الرقمية (Customer Journey)
+
+تم تصميم النظام ليكون سلساً وتلقائياً بالكامل، حيث تسير رحلة طلب العميل كالتالي:
+
+1. **📱 استعراض المنيو والطلب:**
+   - يفتح العميل رابط المنيو أونلاين [foodexa.online/delivery](https://foodexa.online/delivery/) من هاتفه (PWA).
+   - يختار العميل وجباته ومكوناتها المفضلة والإضافات، ويملأ بياناته (الاسم، الهاتف، العنوان بالتفصيل).
+   - يختار طريقة الدفع المفضلة (كاش، فودافون كاش، إنستا باي).
+2. **💬 فاتورة واتساب التلقائية:**
+   - بمجرد إرسال الطلب، يتلقى العميل رسالة فورية على حسابه في **WhatsApp** تحتوي على الفاتورة التفصيلية، وعنوانه، ورابط مباشر للتتبع والشات، بالإضافة إلى **كود أمان (Security PIN) مكون من 4 أرقام** لتأمين حسابه وتتبع طلبه.
+3. **🍳 مراجعة الإدارة والتحضير:**
+   - يظهر الطلب فوراً في لوحة الكاشير ولوحة المطبخ (KDS).
+   - عند مراجعة الكاشير وإرسال الطلب للتحضير، يتلقى العميل إشعاراً على **WhatsApp**: *"تم تأكيد طلبك وجاري تحضيره في المطبخ الآن! 🍳🔥"*.
+4. **🚴 التوصيل الذكي:**
+   - بعد انتهاء المطبخ من تحضير الأكل، يتم تعيين طيار دليفري.
+   - يتلقى العميل إشعاراً على **WhatsApp** يعلمه بأن *"أوردرك جاهز وخرج للتوصيل الآن مع الطيار (اسم الطيار)! 🚴‍♂️💨"*.
+5. **🍔 التسليم والتقييم:**
+   - يقوم الطيار بتسليم الأوردر وتحديث الحالة إلى "تم التوصيل".
+   - يتلقى العميل رسالة شكر على **WhatsApp** تدعوه لتقييم وجبته وخدمته عبر رابط مباشر يفتح شاشة التقييم التفاعلية في المنيو.
 
 ---
 
@@ -87,7 +118,31 @@
 # English Showcase 🇺🇸
 
 ## ✨ Value Proposition
-**Foodexa** provides a modern, fully independent alternative to expensive aggregate food delivery platforms. By self-hosting Foodexa, restaurants retain 100% of their profits, own their customer data, and run a unified digital operation connecting front-of-house, kitchen, inventory, and automated delivery alerts.
+Most restaurants rely on third-party aggregators that slice away profit margins and restrict direct customer communication. **Foodexa** offers a self-hosted alternative that gives you total control over your branding, client databases, and revenue, powered by an instantaneous WebSocket-driven operational backend.
+
+> **Official Website & Demo:**  
+> 🌐 **[https://foodexa.online](https://foodexa.online)**
+
+---
+
+## 🔄 The Digital Customer Journey
+
+The system orchestrates a fully automated order processing pipeline:
+
+1. **📱 Menu Browsing & Order Placement:**
+   - The customer visits the web menu [foodexa.online/delivery](https://foodexa.online/delivery) on their phone (PWA).
+   - They customize their meals (selection of toppings, ingredients, extras), enter delivery details, and choose a payment method.
+2. **💬 Automated WhatsApp Invoice:**
+   - Upon submission, the customer instantly receives a **WhatsApp message** detailing their invoice summary, delivery address, a live tracking/chat link, and a **4-digit Security PIN** to securely authenticate tracking and chat features.
+3. **🍳 Kitchen Prep:**
+   - The order hits the Cashier POS and Kitchen Display Screen (KDS) immediately.
+   - Once the cashier confirms the order, the customer receives a **WhatsApp notification**: *"Your order has been approved and is now being prepared in the kitchen! 🍳🔥"*.
+4. **🚴 Delivery Dispatch:**
+   - When the kitchen finishes preparation, a driver is assigned.
+   - The customer receives a **WhatsApp update**: *"Your order is ready and out for delivery with [Driver Name]! 🚴‍♂️💨"*.
+5. **🍔 Handover & Rating:**
+   - The driver delivers the hot meal and marks it as "Delivered".
+   - The customer receives a **WhatsApp follow-up** with a direct rating link, allowing them to instantly rate the food quality and delivery service in the PWA interface.
 
 ---
 
