@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Foodexa Logo" width="220" style="border-radius: 50%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"/>
+  <img src="logo.png" alt="Foodexa Logo" width="600" style="max-width: 100%; height: auto;"/>
 </p>
 
 # Foodexa - المنظومة الذكية المتكاملة لإدارة المطاعم وتلقي الطلبات أونلاين 🍽️🚀
